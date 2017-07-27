@@ -4,7 +4,7 @@
 // license that can be found in the LICENSE file.
 //
 
-package enumerator // import "go.bug.st/serial.v1/enumerator"
+package enumerator // import "github.com/ds-forks/bugst-go-serial/enumerator"
 
 import (
 	"bufio"
@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.bug.st/serial.v1"
+	"github.com/ds-forks/bugst-go-serial"
 )
 
 func nativeGetDetailedPortsList() ([]*PortDetails, error) {

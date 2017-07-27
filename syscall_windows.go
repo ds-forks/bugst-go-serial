@@ -4,7 +4,7 @@
 // license that can be found in the LICENSE file.
 //
 
-package serial // import "go.bug.st/serial.v1"
+package serial // import "github.com/ds-forks/bugst-go-serial"
 
 //sys regEnumValue(key syscall.Handle, index uint32, name *uint16, nameLen *uint32, reserved *uint32, class *uint16, value *uint16, valueLen *uint32) (regerrno error) = advapi32.RegEnumValueW
 
@@ -25,4 +25,3 @@ package serial // import "go.bug.st/serial.v1"
 //sys getOverlappedResult(handle syscall.Handle, overlapEvent *syscall.Overlapped, n *uint32, wait bool) (err error) = GetOverlappedResult
 
 //sys purgeComm(handle syscall.Handle, flags uint32) (err error) = PurgeComm
-
